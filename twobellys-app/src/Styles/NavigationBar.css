@@ -41,4 +41,5 @@
 
 .NavigationBar #NavLinks {
   width: -webkit-fill-available;
+  margin-right: 5%;
 }
