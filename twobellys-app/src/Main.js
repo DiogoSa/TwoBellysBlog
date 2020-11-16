@@ -3,30 +3,26 @@ import React, { Component } from "react";
 import {
   Route,
   NavLink,
-  HashRouter
+  BrowserRouter as Router
 } from "react-router-dom";
-import Home from "./Home";
-import Stuff from "./Stuff";
-import Contact from "./Contact";
+import Home from "./Views/Home";
+import Stuff from "./Views/Stuff";
+import Contact from "./Views/Contact";
+import NavigationBar from "./Views/NavigationBar";
 
 class Main extends Component {
     render() {
       return (
-        <HashRouter>
+        <Router>
           <div>
-            <h1>Two Bellys</h1>
-            <ul className="header">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/stuff">Objectives</NavLink></li>
-            <li><NavLink to="/contact">About us</NavLink></li>
-            </ul>
+            <NavigationBar/>
             <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/stuff" component={Stuff}/>
             <Route path="/contact" component={Contact}/>
             </div>
           </div>
-        </HashRouter>
+        </Router>
       );
     }
   }

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.NavigationBar h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+
+.NavigationBar ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  width: fit-content;
+  float: right;
+}
+
+.NavigationBar ul.header li h1 {
+  font-family: 'Pacifico', cursive;
+  width: max-content;
+}
+
+.NavigationBar ul.header {
+  background-color: #FFF;
+  margin-top: 0;
+  display:flex;
+  align-items:center;
+  width: inherit;
+}
+
+.NavigationBar ul.header li a {
+  color: #111;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.NavigationBar {
+  position: sticky;
+  width: 100%;
+  display: flow-root;
+}
+
+.NavigationBar #NavLinks {
+  width: -webkit-fill-available;
+}
