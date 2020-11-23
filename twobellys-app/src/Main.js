@@ -9,6 +9,7 @@ import Home from "./Views/Home";
 import Stuff from "./Views/Stuff";
 import Contact from "./Views/Contact";
 import NavigationBar from "./Views/NavigationBar";
+import FooterBar from "./Views/FooterBar";
 
 class Main extends Component {
     render() {
@@ -21,6 +22,7 @@ class Main extends Component {
             <Route path="/stuff" component={Stuff}/>
             <Route path="/contact" component={Contact}/>
             </div>
+            <FooterBar/>
           </div>
         </Router>
       );

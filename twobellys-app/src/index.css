@@ -1,5 +1,5 @@
 body {
-  background-color: #33a158;
+  background-color: #000000;
   margin: 0;
 }
 
@@ -8,7 +8,7 @@ h1, h2, p, ul, li {
 }
 
 .content {
-  background-color: #FFF;
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   margin: 20px;
 }
