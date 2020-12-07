@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.NavigationBar {
+  position: sticky;
+}
+
+.NavigationBar h1,
+h2,
+p,
+ul,
+li {
+  font-family: sans-serif;
+}
+
+.NavigationBar ul.Header {
+  background-color: #fff;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  width: inherit;
+  padding-inline-start: 5vw;
+}
+
+.NavigationBar ul.Header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  width: fit-content;
+  float: right;
+}
+
+.NavigationBar ul.Header li a {
+  color: #111;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1vh 1vw 1vh 1vw;
+  display: inline-block;
+}
+
+.NavigationBar ul.Header li h1 {
+  font-family: "Pacifico", cursive;
+  font-size: medium;
+}
+
+.NavigationBar #NavLinks {
+  width: -webkit-fill-available;
+  margin-right: 5vw;
+  font-size: xx-small;
+}
+
+@media only screen and (min-height: 320px) {
+  .NavigationBar ul.Header li h1 {
+    font-size: larger;
+  }
+}
+
+
+@media only screen and (min-height: 560px) {
+  .NavigationBar {
+    position: sticky;
+  }
+
+  .NavigationBar h1,
+  h2,
+  p,
+  ul,
+  li {
+    font-family: sans-serif;
+  }
+
+  .NavigationBar ul.Header {
+    background-color: #fff;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    width: inherit;
+  }
+
+  .NavigationBar ul.Header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    width: fit-content;
+    float: right;
+  }
+
+  .NavigationBar ul.Header li a {
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vh 1vw 1vh 1vw;
+    display: inline-block;
+  }
+
+  .NavigationBar ul.Header li h1 {
+    font-family: "Pacifico", cursive;
+    width: max-content;
+  }
+
+  .NavigationBar #NavLinks {
+    width: -webkit-fill-available;
+    margin-right: 5vw;
+  }
+}
+
+@media only screen and (min-height: 1080px) {
+  .NavigationBar {
+    position: sticky;
+  }
+
+  .NavigationBar h1,
+  h2,
+  p,
+  ul,
+  li {
+    font-family: sans-serif;
+  }
+
+  .NavigationBar ul.Header {
+    background-color: #fff;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    width: inherit;
+  }
+
+  .NavigationBar ul.Header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    width: fit-content;
+    float: right;
+  }
+
+  .NavigationBar ul.Header li a {
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vh 1vw 1vh 1vw;
+    display: inline-block;
+  }
+
+  .NavigationBar ul.Header li h1 {
+    font-family: "Pacifico", cursive;
+    width: max-content;
+  }
+
+  .NavigationBar #NavLinks {
+    width: -webkit-fill-available;
+    margin-right: 5vw;
+  }
+}

@@ -6,7 +6,7 @@ class Contact extends Component {
       <div>
         <h2>About Us</h2>
         <p>You can find the project on 
-         <a href="https://github.com/DiogoSa/TwoBellysBlog/tree/master/twobellys-app">
+         <a href="https://github.com/DiogoSa/TwoBelliesBlog/tree/master/twobellies-app">
         GitHub</a>. 
         </p>
       </div>

@@ -6,8 +6,8 @@ export default class FooterBar extends Component {
     render() {
         return (
             <div className="FooterBar">
-                <ul className="header">
-                    <li><h1>Two Bellys</h1></li>
+                <ul className="Header">
+                    <li><h1>Two Bellies</h1></li>
                 </ul>
             </div>
         )

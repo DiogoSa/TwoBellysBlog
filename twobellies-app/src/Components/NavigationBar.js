@@ -6,8 +6,8 @@ export default class NavigationBar extends Component {
     render() {
         return (
             <div className="NavigationBar">
-                <ul className="header">
-                    <li><h1>Two Bellys</h1></li>
+                <ul className="Header">
+                    <li><h1>Two Bellies</h1></li>
                     <div id="NavLinks">
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/stuff">Objectives</NavLink></li>

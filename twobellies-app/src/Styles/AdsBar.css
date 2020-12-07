@@ -1,0 +1,46 @@
+.AdsBar {
+  background-color: white;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border-radius: 5px;
+  padding: 2vh 2vw 2vh 2vw;
+  width: 50vw;
+  overflow: auto;
+}
+
+@media only screen and (min-height: 240px) {
+  .AdsBar {
+    background-color: white;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 5px;
+    padding: 2vh 2vw 2vh 2vw;
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-height: 560px) {
+  .AdsBar {
+    background-color: white;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 5px;
+    padding: 2vh 2vw 2vh 2vw;
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-height: 1080px) {
+  .AdsBar {
+    background-color: white;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 5px;
+    padding: 2vh 2vw 2vh 2vw;
+    width: 50vw;
+  }
+}

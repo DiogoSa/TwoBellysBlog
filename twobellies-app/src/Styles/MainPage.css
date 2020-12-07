@@ -1,0 +1,48 @@
+.MainPage {
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
+  margin-block-end: 14vh;
+}
+
+.MainPageContent {
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
+  display: flex;
+  margin-block-end: 58vh;
+}
+
+@media only screen and (min-height: 240px) {
+  .MainPageContent {
+    margin-block-end: 50vh;
+  }
+}
+
+@media only screen and (min-height: 320px) {
+  .MainPageContent {
+    margin-block-end: 41vh;
+  }
+}
+
+@media only screen and (min-height: 560px) {
+  .MainPage {
+    margin-block-end: 14vh;
+  }
+
+  .MainPageContent {
+    margin-block-end: 20vh;
+  }
+}
+
+@media only screen and (min-height: 1080px) {
+  .MainPage {
+    margin-block-end: 14vh;
+  }
+
+  .MainPageContent {
+    margin-block-end: 20vh;
+  }
+}

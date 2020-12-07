@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.FooterBar {
+  height: 18vh;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.FooterBar h1,
+h2,
+p,
+ul,
+li {
+  font-family: sans-serif;
+}
+
+.FooterBar ul.Header {
+  background-color: #fff;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  width: inherit;
+  padding-inline-start: 5vw;
+}
+
+.FooterBar ul.Header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  width: fit-content;
+  float: right;
+}
+
+.FooterBar ul.Header li h1 {
+  font-family: "Pacifico", cursive;
+  font-size: smaller;
+}
+
+@media only screen and (min-height: 240px) {
+  .FooterBar {
+    height: 18vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .FooterBar ul.Header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    width: fit-content;
+    float: right;
+  }
+}
+
+@media only screen and (min-height: 320px) {
+  .FooterBar {
+    height: 18vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .FooterBar ul.Header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    width: fit-content;
+    float: right;
+  }
+
+  .FooterBar ul.Header li h1 {
+    font-size: larger;
+  }
+}
+
+@media only screen and (min-height: 560px) {
+  .FooterBar {
+    height: 18vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .FooterBar h1,
+  h2,
+  p,
+  ul,
+  li {
+    font-family: sans-serif;
+  }
+
+  .FooterBar ul.Header {
+    background-color: #fff;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    width: inherit;
+  }
+
+  .FooterBar ul.Header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    width: fit-content;
+    float: right;
+  }
+
+  .FooterBar ul.Header li h1 {
+    font-family: "Pacifico", cursive;
+    width: max-content;
+  }
+}
+
+@media only screen and (min-height: 1080px) {
+  .FooterBar {
+    height: 18vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .FooterBar h1,
+  h2,
+  p,
+  ul,
+  li {
+    font-family: sans-serif;
+  }
+
+  .FooterBar ul.Header {
+    background-color: #fff;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    width: inherit;
+  }
+
+  .FooterBar ul.Header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    width: fit-content;
+    float: right;
+  }
+
+  .FooterBar ul.Header li h1 {
+    font-family: "Pacifico", cursive;
+    width: max-content;
+  }
+}
